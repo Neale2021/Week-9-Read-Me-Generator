@@ -11,32 +11,33 @@ function promptUser(){
     return inquirer.prompt([
         {
             type: "input",
-            name: "projectTitle",
-            message: "What is your project title?",
+            name: "Title",
+            message: "What is the name of your project?",
         },
         {
             type: "input",
-            name: "description",
+            name: "Tasks",
             message: "Create a small description on your project: "
         },
         {
             type: "input",
-            name: "installation",
-            message: "What did you have to install to complete your project if any: ",
-        },
-        {
-            type: "input",
-            name: "usage",
+            name: "User story",
             message: "What is the purpose of your project?"
         },
         {
             type: "input",
-            name: "contributing",
-            message: "Who were the contributors of this projects?"
+            name: "installations",
+            message: "What have installed to create your project? ",
+        },
+
+        {
+            type: "input",
+            name: "Contributers",
+            message: "Who contributed to complete your project?"
         },
         {
             type: "input",
-            name: "username",
+            name: "Github",
             message: "Please enter your GitHub username: "
         },
         {
