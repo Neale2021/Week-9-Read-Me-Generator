@@ -1,33 +1,33 @@
 
-// Declaring the dependencies and variables
+//dependancies
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./Utilise/Readme generatorfile")
+const generateReadme = require("./Utilise/Readme generatorfile.js")
 const writeFileAsync = util.promisify(fs.writeFile);
 
-//Prompt the user questions to populate the README.md
+//Questions prompted to generate the README.md
 function promptUser(){
     return inquirer.prompt([
         {
             type: "input",
             name: "Title",
-            message: "What is the name of your project?",
+            message: "What is the title of your project?",
         },
         {
             type: "input",
             name: "Tasks",
-            message: "Create a small description on your project: "
+            message: "explain your tasks on of your project: "
         },
         {
             type: "input",
-            name: "User story",
-            message: "What is the purpose of your project?"
+            name: "userStory",
+            message: "What is the users storys?"
         },
         {
             type: "input",
             name: "installations",
-            message: "What have installed to create your project? ",
+            message: "What have you installed to create your project? ",
         },
 
         {
@@ -37,7 +37,7 @@ function promptUser(){
         },
         {
             type: "input",
-            name: "Github",
+            name: "gitHub",
             message: "Please enter your GitHub username: "
         },
         {
@@ -48,14 +48,13 @@ function promptUser(){
     ]);
 } 
 
-// Async function using util.promisify 
   async function init() {
     try {
-        // Ask user questions and generate responses
+        // User questions and generate responses
         const answers = await promptUser();
         const generateContent = generateReadme(answers);
-        // Write new README.md to file
-        await writeFileAsync('/Users/nealephilippe/Desktop/Homework week 9 Read me generator /Week-9-Read-Me-Generator/ReadMe.md', generateContent);
+        // Create and write new README.md to file
+        await writeFileAsync('/Users/nealephilippe/Desktop/Bootcamp/Homework week 9 Read me generator /Week-9-Read-Me-Generator/readMe.md', generateContent);
         console.log('✔️  Successfully wrote to README.md');
     }   catch(err) {
         console.log(err);

@@ -3,26 +3,27 @@ function generateReadme(answers) {
     return `
 <h1 align="center">${answers.projectTitle} 👋</h1>
   
-![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
-## Description
-🔍 ${answers.description}
 ## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-## Installation
-💾 ${answers.installation}
-## Usage
-💻 ${answers.usage}
-## Contributing
-👪 ${answers.contributing}
+- [Tasks](#Tasks)
+- [UserStory](#UserStory)
+- [installations](#installations)
+- [Contributers](#contributers)
 
-:octocat: Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
+## Tasks
+${answers.Tasks}
+
+## User Story
+ ${answers.userStory}
+
+## installations
+ ${answers.installations}
+
+## Contributers
+${answers.Contributers}
+
+Find me on GitHub: [${answers.gitHub}](https://github.com/${answers.gitHub})<br />
 <br />
-✉️ Email me with any questions: ${answers.email}<br /><br />
-
+✉️ Email me : ${answers.email}<br /><br />
     `;
   }
   
