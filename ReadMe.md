@@ -26,6 +26,8 @@ Find me on GitHub: [Neale2021](https://github.com/Neale2021)<br />
 
 Link to walk through video on index.js file
 
+https://youtu.be/0jhjdLorvoY
+
 
 link to the gitHub repository 
 
