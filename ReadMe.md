@@ -31,5 +31,5 @@ https://youtu.be/0jhjdLorvoY
 
 link to the gitHub repository 
 
-https://github.com/Neale2021/Week-9-Read-Me-Generator/edit/main/ReadMe.md
+https://github.com/Neale2021/Week-9-Read-Me-Generator
     
