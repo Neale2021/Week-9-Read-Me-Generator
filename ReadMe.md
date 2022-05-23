@@ -22,4 +22,12 @@ Neale
 Find me on GitHub: [Neale2021](https://github.com/Neale2021)<br />
 <br />
 ✉️ Email me : neale@adflexmarketing.com.au<br /><br />
+
+
+Link to walk through video on index.js file
+
+
+link to the gitHub repository 
+
+https://github.com/Neale2021/Week-9-Read-Me-Generator/edit/main/ReadMe.md
     
