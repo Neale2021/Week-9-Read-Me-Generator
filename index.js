@@ -3,7 +3,7 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("./Utilise/Readme generatorfile.js")
+const generateReadme = require("./Utilise/Readme generatorfile")
 const writeFileAsync = util.promisify(fs.writeFile);
 
 //Questions prompted to generate the README.md
@@ -54,7 +54,7 @@ function promptUser(){
         const answers = await promptUser();
         const generateContent = generateReadme(answers);
         // Create and write new README.md to file
-        await writeFileAsync('/Users/nealephilippe/Desktop/Bootcamp/Homework week 9 Read me generator /Week-9-Read-Me-Generator/readMe.md', generateContent);
+        await writeFileAsync('readMe.md', generateContent);
         console.log('✔️  Successfully wrote to README.md');
     }   catch(err) {
         console.log(err);

@@ -1,5 +1,5 @@
 
-<h1 align="center">Generate a good readMe file through Node 👋</h1>
+<h1 align="center">Generate a good ReadMe file through Node 👋</h1>
   
 ## Table of Contents
 - [Tasks](#Tasks)
@@ -8,13 +8,13 @@
 - [Contributers](#contributers)
 
 ## Tasks
-Tasked to create a good ReadMe file using Node.JS. Reason for this was to help users concentrate on the overall project and generate a quick and good read file.
+To develop a ReadMe file generator using prompts on command line through node.js
 
 ## User Story
- Purpose of the project was to be able to allow users to generate a ReadMe file using Node.js which allows them to allow them to create it by being prompted by questions and leving them enough time to concentrate on the overall project they are completing.
+ As a user I want to be able to be prompted in the command line to be able to generate a Good ReadMe file so i can concentrate on the project at hand. 
 
 ## installations
- Node modules, gitingnore, package.json, inqurier
+ Inquirer, Node.js
 
 ## Contributers
 Neale
