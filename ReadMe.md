@@ -1,5 +1,5 @@
 
-<h1 align="center">Generate a good ReadMe file through Node 👋</h1>
+<h1 align="center">Generate a Good ReadMe file through Node.js 👋</h1>
   
 ## Table of Contents
 - [Tasks](#Tasks)
@@ -8,13 +8,13 @@
 - [Contributers](#contributers)
 
 ## Tasks
-To develop a ReadMe file generator using prompts on command line through node.js
+Create a set of prompts using inquirer to allow user to generate a good ReadMe file 
 
 ## User Story
- As a user I want to be able to be prompted in the command line to be able to generate a Good ReadMe file so i can concentrate on the project at hand. 
+ As a user I want to be able to generate a good readMe file through command line through a set of prompts to be able to concentrate on the project at hand
 
 ## installations
- Inquirer, Node.js
+ Inqurier, Node.js
 
 ## Contributers
 Neale
@@ -22,14 +22,4 @@ Neale
 Find me on GitHub: [Neale2021](https://github.com/Neale2021)<br />
 <br />
 ✉️ Email me : neale@adflexmarketing.com.au<br /><br />
-
-
-Link to walk through video on index.js file
-
-https://youtu.be/0jhjdLorvoY
-
-
-link to the gitHub repository 
-
-https://github.com/Neale2021/Week-9-Read-Me-Generator
     
